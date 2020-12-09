@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h3, p{
+    font-family: 'Open Sans' !important;
+}
+p{
+    text-align: justify;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff !important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ---- Slider/Carousel ---- */
+
+#slider{
+    position: static;
+    width: 100%;
+}
+.carousel-item {
+    position: sticky;
+    background-top: 50px;
+}
+
+h1{
+    text-align: center;
+    color: #fff !important;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+/* ----- About ----- */
+
+#about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/services.jpg);
+    backgroud-size: cover;
+    backgroud-position: center;
+    color: #fff; !important;
+    background-attachment: fixed;
+    background-top: 50px;
+    backgroud-bottom: 50px;
+}
+.about-content{
+    padding-top: 20px;
+}
+#about h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+#about h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.about-content p{
+    font-size: 18px;
+}
+.about-content .welcome p{
+    font-weight: 900;
+}
+/* ----- Services ------ */
+
+#services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#services h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+#services h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin-left: 20px auto;
+    padding: 20px;
+    height: 80px;
+}
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #555;
+}
+/*
+#services p:hover{
+    background: #FFFF7F;
+    color: #555;
+    cursor: pointer;
+    transition: 0.7s;
+}
+*/
+.list{
+  padding-left: 20px;
+  font-size: 14px;
+  text-align: justify;
+}
+/*---- Contacts ---- */
+
+#contacts{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/services.jpg);
+    backgroud-size: cover;
+    backgroud-position: center;
+    color: #fff; !important;
+    background-attachment: fixed;
+    background-top: 50px;
+    backgroud-bottom: 50px;
+}
+#contacts h1{
+    text-align: center;
+    color: #fff !important;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#contacts h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.follow{
+
+    margin-top: -10px;
+    margin-left: 30px;
+}
